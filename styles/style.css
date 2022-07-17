@@ -1,4 +1,30 @@
-/* top player and top blogs */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* utilities */
+body {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+
+}
+
+.container {
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* top player styles */
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -12,4 +38,8 @@
 .player img {
     width: 56px;
     height: 56px;
+}
+
+.player-names {
+    margin-left: 16px;
 }
