@@ -19,6 +19,12 @@ main {
     justify-content: center;
 }
 
+hr {
+    margin-bottom: 27px;
+    border: 1px solid #D1D1D1;
+
+}
+
 /* top player styles */
 .top-player {
     margin-bottom: 30px;
@@ -48,4 +54,42 @@ main {
 
 .player-names {
     margin-left: 16px;
+}
+
+/*----- top blogs styles -------*/
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 60px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog .thumbnail img {
+    height: 117px;
+
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blog-author {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+
+}
+
+.blog-author a {
+    text-decoration: none;
+    color: #562EFF;
+    margin-top: 6px;
 }
